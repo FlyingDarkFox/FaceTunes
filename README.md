@@ -311,3 +311,10 @@ const CaptureImage: React.FC<CaptureImageProps> = ({
 
 export default CaptureImage
 ```
+
+
+##Thanks to our teams member 
+FlyingDarkFox
+@gauravyad12
+FlyingDarkDev
+DarkDev
