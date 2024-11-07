@@ -1,13 +1,11 @@
-# EmoTunes
+# FaceTunes
 
-EmoTunes is a web application that uses advanced emotion recognition technology to analyze your mood and recommend music playlists that align with your current emotional state. Capture your mood through the camera, and let EmoTunes curate a personalized music experience for you.
-
-![Screen Shot 2024-06-15 at 2 07 11 PM](https://github.com/WingNinCheung/EmoTunes/assets/96600317/48bf5195-32aa-42d2-b53e-75290214723a)
+FaceTunes is a web application that uses advanced emotion recognition technology to analyze your mood and recommend music playlists. 
 
 ## Features
 
 - **Real-time Emotion Recognition**: Utilizes webcam input to analyze facial expressions and determine the user's emotional state.
-- **Personalized Music Recommendations**: Based on detected emotions, EmoTunes recommends Spotify playlists that match the user's mood.
+- **Personalized Music Recommendations**: Based on detected emotions, FaceTunes recommends Spotify playlists that match the user's mood.
 - **Interactive User Interface**: Simple and intuitive design makes it easy for users to capture their mood and enjoy personalized music recommendations.
 
 ## Technologies Used
@@ -20,7 +18,7 @@ EmoTunes is a web application that uses advanced emotion recognition technology 
 ## Usage
 
 - **Capture Your Mood**: Click on "Capture Your Mood" to open the camera. Capture your facial expression to analyze your mood.
-- **Discover Music**: Based on your mood analysis, EmoTunes will recommend Spotify playlists that match your emotions.
+- **Discover Music**: Based on your mood analysis, FaceTunes will recommend Spotify playlists that match your emotions.
 - **Re-Capture**: If needed, click on "Re-Capture" to try again.
 
 ## Getting Started
@@ -37,8 +35,8 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/WingNinCheung/EmoTunes.git
-cd emtunes
+git clone https://github.com/FlyingDarkFox/FaceTunes.git
+cd Facetunes
 ```
 
 2. Install dependencies:
@@ -115,7 +113,7 @@ The application will be available at http://localhost:5173.
 
 
 
-
+## You can also add helpline function when user sad or anger they can connect with your teams member.
 
 
 ```bash
@@ -221,7 +219,7 @@ const CaptureImage: React.FC<CaptureImageProps> = ({
     <div className='p-4 space-y-4'>
       {showHelpline && (
         <div className='text-center text-red-500 font-bold'>
-          Helpline: 8651829629
+          Helpline: +91999999999
         </div>
       )}
       {imageSrc ? (
