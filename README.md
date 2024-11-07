@@ -116,6 +116,8 @@ The application will be available at http://localhost:5173.
 ## You can also add helpline function when user sad or anger they can connect with your teams member.
 
 
+# this will add in this file :- src/components/CaptureImage/CaptureImage.tsx
+
 ```bash
 import Webcam from 'react-webcam'
 import React, { useRef, useState, useEffect } from 'react'
